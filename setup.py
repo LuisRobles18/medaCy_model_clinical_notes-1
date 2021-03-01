@@ -46,7 +46,6 @@ setup(
         'Topic :: Text Processing :: Linguistic',
         'Intended Audience :: Science/Research'
     ],
-    install_requires=['medacy @ https://github.com/NLPatVCU/medaCy/archive/v0.1.1.tar.gz'],
     tests_require=["pytest"],
     cmdclass={"pytest": PyTest},
     include_package_data=True,
